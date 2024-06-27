@@ -50,18 +50,9 @@ def download_gallery_images(url):
 
 if __name__ == "__main__":
     urls = [
-        "https://mansoesescarpas.com.br/barco-01/",
-        "https://mansoesescarpas.com.br/barco-02/",
-        "https://mansoesescarpas.com.br/barco-03/",
-        "https://mansoesescarpas.com.br/barco-04/",
-        "https://mansoesescarpas.com.br/barco-05-2/",
-        "https://mansoesescarpas.com.br/barco-06/",
-        "https://mansoesescarpas.com.br/barco-08/",
-        "https://mansoesescarpas.com.br/barco-09/",
-        "https://mansoesescarpas.com.br/barco-010/",
-        "https://mansoesescarpas.com.br/barco-011/",
-        "https://mansoesescarpas.com.br/jet-0002/",
-        "https://mansoesescarpas.com.br/jet-0001/",
+        "https://mansoesescarpas.com.br/casa-00067/",
+        "https://mansoesescarpas.com.br/casa-00064/",
+        "https://mansoesescarpas.com.br/casa-00061/",
     ]
     for url in urls:
         download_gallery_images(url)
